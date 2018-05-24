@@ -1,0 +1,4 @@
+hadoop jar userTag.jar usertag.CorrelationDriver /user/ypan9830/assignment1/data /user/ypan9830/assignment1/hadoop GB US
+
+spark-submit --class ml.TrendingIncrease --master yarn --deploy-mode cluster --num-executors 4 sparkML.jar /user/ypan9830/assignment1/data /user/ypan9830/assignment1/spark
+
